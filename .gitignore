@@ -1,7 +1,8 @@
 *.bin
 *.pt
 *.safetensors
-deepfake/results/checkpoint-*/model.safetensors
+deepfake/results/checkpoint-*/deepfake_model.safetensors
+deepfake/results/checkpoint-*/vishing_model.safetensors
 deepfake/results/checkpoint-*/optimizer.pt
 deepfake/results/checkpoint-*/scheduler.pt
 deepfake/results/checkpoint-*/training_args.bin
